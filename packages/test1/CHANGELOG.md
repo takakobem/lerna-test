@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/takakobem/lerna-test/compare/test1@0.2.0...test1@0.3.0) (2019-03-01)
+
+
+### Features
+
+* Change test1 ([17086a4](https://github.com/takakobem/lerna-test/commit/17086a4))
+
+
+
+
+
 # [0.2.0](https://github.com/takakobem/lerna-test/compare/test1@0.1.0...test1@0.2.0) (2019-03-01)
 
 
