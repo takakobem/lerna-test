@@ -1,0 +1,23 @@
+0 silly argv { _: [ 'version' ],
+0 silly argv   lernaVersion: '3.4.3',
+0 silly argv   '$0': '/usr/local/bin/lerna' }
+1 notice cli v3.4.3
+2 verbose rootPath /Users/takakobem/Apps/lerna-test
+3 info current version 0.0.0
+4 silly isAnythingCommitted
+5 verbose isAnythingCommitted 1
+6 silly currentBranch
+7 verbose currentBranch master
+8 silly isBehindUpstream
+9 error Error: Command failed: git rev-list --left-right --count origin/master...master
+9 error fatal: ambiguous argument 'origin/master...master': unknown revision or path not in the working tree.
+9 error Use '--' to separate paths from revisions, like this:
+9 error 'git <command> [<revision>...] -- [<file>...]'
+9 error
+9 error
+9 error     at makeError (/Users/takakobem/.config/yarn/global/node_modules/execa/index.js:174:9)
+9 error     at Function.module.exports.sync (/Users/takakobem/.config/yarn/global/node_modules/execa/index.js:338:15)
+9 error     at Object.execSync (/Users/takakobem/.config/yarn/global/node_modules/@lerna/child-process/index.js:22:16)
+9 error     at countLeftRight (/Users/takakobem/.config/yarn/global/node_modules/@lerna/version/lib/is-behind-upstream.js:30:31)
+9 error     at isBehindUpstream (/Users/takakobem/.config/yarn/global/node_modules/@lerna/version/lib/is-behind-upstream.js:14:27)
+9 error     at VersionCommand.initialize (/Users/takakobem/.config/yarn/global/node_modules/@lerna/version/index.js:109:7)
