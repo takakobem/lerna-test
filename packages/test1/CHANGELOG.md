@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0](https://github.com/takakobem/lerna-test/compare/test1@1.2.1...test1@2.0.0) (2019-03-01)
+
+
+### Features
+
+* change hoge ([dab6433](https://github.com/takakobem/lerna-test/commit/dab6433))
+
+
+### BREAKING CHANGES
+
+* hogehoge
+
+
+
+
+
 ## [1.2.1](https://github.com/takakobem/lerna-test/compare/test1@1.2.0...test1@1.2.1) (2019-03-01)
 
 **Note:** Version bump only for package test1
