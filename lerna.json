@@ -4,5 +4,6 @@
     "apps/*",
     "packages/*"
   ],
+  "npmClient": "yarn",
   "version": "independent"
 }
